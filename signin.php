@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog Site</title>
     <!-- CUSTOM STYLESHEET -->
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="css/style.css">
     <!-- ICONSCOUNT CDN -->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
     <!-- GOOGLE FONTS -->
@@ -28,13 +28,13 @@
         <input type="password" placeholder="Password">
        
         <button type="submit" class="btn">Sign In</button>
-        <small>Don't have an account? <a href="signup.html">Sign Up.</a></small>
+        <small>Don't have an account? <a href="signup.php">Sign Up.</a></small>
       </form>
     </div>
 </section>
 
 <!-- JAVASCRIPT -->
-<script src="./main.js"></script>
+<script src="<?= ROOT_URL ?>js/main.js"></script>
 </body>
 
 </html>
